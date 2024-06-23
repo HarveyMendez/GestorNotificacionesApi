@@ -36,3 +36,4 @@ C:\Users\diego\Documents\api\GestorNotificacionesApi\obj\Debug\net8.0\refint\Ges
 C:\Users\diego\Documents\api\GestorNotificacionesApi\obj\Debug\net8.0\GestorNotificacionesApi.pdb
 C:\Users\diego\Documents\api\GestorNotificacionesApi\obj\Debug\net8.0\GestorNotificacionesApi.genruntimeconfig.cache
 C:\Users\diego\Documents\api\GestorNotificacionesApi\obj\Debug\net8.0\ref\GestorNotificacionesApi.dll
+C:\Users\diego\Documents\api\GestorNotificacionesApi\obj\Debug\net8.0\GestorNotificacionesApi.sourcelink.json
