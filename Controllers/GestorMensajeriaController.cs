@@ -58,10 +58,27 @@ namespace GestorNotificacionesApi.Controllers
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@Nombre", infoEstudiante.Nombre);
-                cmd.Parameters.AddWithValue("@Apellido", infoEstudiante.Apellidos);
+                cmd.Parameters.AddWithValue("@Apellidos", infoEstudiante.Apellidos);
                 cmd.Parameters.AddWithValue("@Carne", infoEstudiante.Carne);
                 cmd.Parameters.AddWithValue("@Correo", infoEstudiante.Correo);
                 cmd.Parameters.AddWithValue("@Telefono", infoEstudiante.Telefono);
+
+                SqlDataReader dr = cmd.ExecuteReader();
+                conn.Close();
+            }
+            return Ok();
+        }
+
+        [HttpPost("/ActivarEstudiante")]
+        public IActionResult ActivarEstudiante(string carne)
+        {
+            using (SqlConnection conn = _utils.GetConnection())
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("sp_activar_estudiante", conn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@Carne", carne);
 
                 SqlDataReader dr = cmd.ExecuteReader();
                 conn.Close();

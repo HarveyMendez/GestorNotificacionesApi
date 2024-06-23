@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\diego\\Documents\\api\\GestorNotificacionesApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B138DEC3-D50A-4A97-B75F-0285AF769959}|GestorNotificacionesApi.csproj|c:\\users\\diego\\documents\\api\\gestornotificacionesapi\\controllers\\gestormensajeriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B138DEC3-D50A-4A97-B75F-0285AF769959}|GestorNotificacionesApi.csproj|solutionrelative:controllers\\gestormensajeriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorMensajeriaController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Documents\\api\\GestorNotificacionesApi\\Controllers\\GestorMensajeriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GestorMensajeriaController.cs",
+              "ToolTip": "C:\\Users\\diego\\Documents\\api\\GestorNotificacionesApi\\Controllers\\GestorMensajeriaController.cs",
+              "RelativeToolTip": "Controllers\\GestorMensajeriaController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAmwD8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T07:38:49.578Z",
+              "EditorCaption": ""
             }
           ]
         }
