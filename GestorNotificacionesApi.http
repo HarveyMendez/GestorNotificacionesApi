@@ -1,0 +1,6 @@
+@GestorNotificacionesApi_HostAddress = http://localhost:5142
+
+GET {{GestorNotificacionesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
